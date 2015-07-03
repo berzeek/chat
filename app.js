@@ -22,4 +22,4 @@ var io = require('socket.io').listen(app.listen(port));
 require('./config')(app, io);
 require('./routes')(app, io);
 
-console.log('Your application is running on http://localhost:' + port);
+console.log('Your application is running on ec2-52-8-249-21.us-west-1.compute.amazonaws.com' + port);
